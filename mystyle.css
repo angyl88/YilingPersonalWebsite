@@ -1,0 +1,33 @@
+.carousel {
+    width: 80%;
+    height: auto;
+    /* Adjust as necessary */
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.card {
+    z-index: 1;/* Lower than carousel */
+    transition: all 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.08);
+}
+
+.container {
+    padding-top: 60px;
+}
+
+.btn-outline-light{
+    color: #D74BCA;
+    background-color: #ffffff;
+    outline-color: #D74BCA;
+}
+
+.btn-outline-light:hover{
+    color: #ffffff;
+    background-color: #AD39A2;
+    outline-color: #ffffff;
+}
