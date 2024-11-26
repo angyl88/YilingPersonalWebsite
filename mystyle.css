@@ -8,11 +8,12 @@
 }
 
 .card {
-    z-index: 1;/* Lower than carousel */
+    z-index: 1;
+    /* Lower than carousel */
     transition: all 0.3s;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.08);
 }
 
@@ -20,14 +21,30 @@
     padding-top: 60px;
 }
 
-.btn-outline-light{
+.btn-outline-light {
     color: #D74BCA;
     background-color: #ffffff;
     outline-color: #D74BCA;
 }
 
-.btn-outline-light:hover{
+.btn-outline-light:hover {
     color: #ffffff;
     background-color: #AD39A2;
     outline-color: #ffffff;
+}
+
+.img-design {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    /* height: 30%; */
+    border: 1px solid #fff;
+    overflow: hidden;
+    transition: all .3s linear;
+}
+
+.img-design:hover {
+    transform: scale(1.08);
+    transition: all .2s linear;
 }
